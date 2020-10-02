@@ -683,14 +683,7 @@ position: relative;
 color: red;
 
 }
-.category-item--active .category-item__link::before {
-    content: "";
-    top: 0;
-    left: 0;
-    position: absolute;
-    border: 4px solid;
-    border-color: transparent transparent transparent red;
-}
+
 
 .category-item__link {
     position: relative;
@@ -991,11 +984,12 @@ border-bottom-right-radius: 4px;
 .home-product-item__favourite span {
 color: white;
 }
-..home-product-item i {
+/* ..home-product-item i {
     font-size: 0.9rem;
     margin: 0 2px 0 5px;
     color: white;
-}
+}  Thêm vào lỗi code
+    */
 .home-product-item__sale-off {
 position: absolute;
 align-items: center;

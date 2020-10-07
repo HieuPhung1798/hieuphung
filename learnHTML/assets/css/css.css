@@ -13,6 +13,7 @@ html {
     font-size: 62.5%;
     line-height: 1.6rem;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -1215,6 +1216,7 @@ border-top-right-radius:2px;
 .header__qr-app {
     display: flex;
     justify-content: space-between;
+    z-index: 1;
 
 }
 
